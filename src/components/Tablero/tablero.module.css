@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    background-color: grey;
+  }
+  
+  .filaUno {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    left: 400px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .columnaUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    left: 750px;
+  }
+  .filaDos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .columnaDos{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    position: fixed;
+    top: 140px;
+    left: 400px;
+  }
+  .casillaBarrio {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .verde {
+    background-color: green;
+  }
+  
+  .amarillo {
+    background-color: yellow;
+  }
+  
+  .naranja {
+    background-color: orange;
+  }
+  
+  .rojo {
+    background-color: red;
+  }
+  
+  .morado {
+    background-color: purple;
+  }
+  
