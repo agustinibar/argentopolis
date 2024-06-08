@@ -77,4 +77,63 @@
   .morado {
     background-color: purple;
   }
+  .casillaBarrio {
+    position: relative;
+
+  }
   
+  .jugador1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+  }
+  
+  .jugador2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+  }
+  
+  .jugador3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+  }
+  
+  .jugador4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+  }
+  .dados{
+    border-radius: 10px;
+    width: 25%;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin-left: 15px;
+    margin-top: 150px;
+    text-align: center;
+    p{
+      color: white;
+      padding-top: 10px;
+      font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
+    }
+  }
